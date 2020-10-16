@@ -1,24 +1,25 @@
 body {
-  font-family: sans-serif;
+  font-family: roboto;
 }
 
 a {
-  color: rgb(255, 81, 0);
+  color: #BF91FE;
 }
 a:hover {
-  color: #00AEFF
+  color:#FFAEE2
 }
 .clear {
   clear: both;
 }
 header {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 20px;
-  border-bottom: 1px solid rgb(0, 174, 255);
+  border-bottom: 1px solid #B5F1BB;
 }
 
 header h1  {
   font-size: 2em;
+  margin-bottom: 15px;
 }
 
 header nav ul li {
@@ -32,7 +33,7 @@ header nav ul li {
 .project {
   margin-bottom: 20px;
   padding: 10px;
-  border-bottom: 1px solid rgb(0, 174, 255);
+  border-bottom: 1px solid #B5F1BB;
 }
 
 .project img, #aboutme img {
@@ -49,4 +50,8 @@ header nav ul li {
 
 .project .link {
   margin-bottom: 10px;
+}
+
+p {
+  line-height: 2;
 }
